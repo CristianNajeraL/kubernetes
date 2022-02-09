@@ -14,3 +14,5 @@ RUN pip install pipenv && pipenv install --system
 
 # Copy project
 COPY . /code/
+
+CMD ["python", "app.py"]
